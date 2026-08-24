@@ -149,7 +149,8 @@ def send_email(deals, city):
     if not user or not password:
         print("  (email skipped — GMAIL_USER / GMAIL_APP_PASSWORD not set)")
         return False
-    recipient = os.environ.get("MAIL_TO", user)
+    # MAIL_TO may be set but empty (unset GitHub secret => ""); fall back to sender.
+    recipient = os.environ.get("MAIL_TO") or user
 
     msg = EmailMessage()
     msg["Subject"] = f"🌱 {len(deals)} new Wallapop deal(s) in {city}"
