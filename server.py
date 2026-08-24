@@ -63,6 +63,11 @@ PAGE = """<!doctype html>
   a {{ color: #4af; }}
   .new-badge {{ background: #2d7; color: #032; border-radius: 5px;
                padding: 1px 6px; font-size: .72rem; font-weight: 700; }}
+  .chips {{ display: flex; flex-wrap: wrap; gap: 8px; }}
+  .chip {{ display: inline-flex; align-items: center; gap: 6px; background: #8882;
+          border-radius: 999px; padding: 4px 6px 4px 12px; font-size: .85rem; }}
+  .chip button {{ background: #e556; color: inherit; font-weight: 700;
+                 border-radius: 999px; padding: 0 8px; line-height: 1.4; }}
 </style></head><body>
 <h1>🌱 Wallapop Deal Watch</h1>
 <p class="muted">Location: {city} · radius {radius} km · flag if under max price
@@ -75,6 +80,17 @@ PAGE = """<!doctype html>
   <form method="post" action="/add" class="row">
     <input name="keywords" placeholder="search term (e.g. sansevieria)" required style="flex:2">
     <input name="max_price" type="number" step="0.5" placeholder="max €" required style="flex:1">
+    <button type="submit">+ Add</button>
+  </form>
+</div>
+
+<h2>Exclude words</h2>
+<p class="muted">Listings whose title contains any of these are dropped
+   (accent- and case-insensitive), e.g. “artificial”, “plástico”.</p>
+<div class="card">
+  <div class="chips">{exclude_chips}</div>
+  <form method="post" action="/add_exclude" class="row" style="margin-top:10px">
+    <input name="word" placeholder="word to exclude (e.g. plastico)" required style="flex:2">
     <button type="submit">+ Add</button>
   </form>
 </div>
@@ -120,12 +136,23 @@ def render(run_note=""):
         )
     deal_rows = "\n".join(drows) or '<p class="muted">No deals yet — hit “Run now”.</p>'
 
+    chips = []
+    for i, w in enumerate(cfg.get("exclude_keywords", [])):
+        chips.append(
+            f'<span class="chip">{html.escape(str(w))}'
+            f'<form class="inline" method="post" action="/del_exclude">'
+            f'<input type="hidden" name="index" value="{i}">'
+            f'<button type="submit" title="remove">×</button></form></span>'
+        )
+    exclude_chips = "".join(chips) or '<span class="muted">None yet.</span>'
+
     gp = cfg.get("good_price", {})
     return PAGE.format(
         city=html.escape(str(cfg.get("location", {}).get("city", "?"))),
         radius=cfg.get("max_distance_km", "?"),
         discount=int(gp.get("discount_below_median", 0.4) * 100),
         search_rows=search_rows,
+        exclude_chips=exclude_chips,
         deal_rows=deal_rows,
         n_deals=len(deals),
         run_note=run_note,
@@ -158,6 +185,22 @@ class Handler(BaseHTTPRequestHandler):
     def do_POST(self):
         cfg = load(CONFIG_PATH, {})
         cfg.setdefault("searches", [])
+        cfg.setdefault("exclude_keywords", [])
+        if self.path == "/add_exclude":
+            f = self._form()
+            word = f.get("word", "").strip()
+            if word and word.lower() not in [w.lower() for w in cfg["exclude_keywords"]]:
+                cfg["exclude_keywords"].append(word)
+                save_config(cfg)
+            return self._redirect()
+        if self.path == "/del_exclude":
+            f = self._form()
+            try:
+                cfg["exclude_keywords"].pop(int(f["index"]))
+                save_config(cfg)
+            except (KeyError, ValueError, IndexError):
+                pass
+            return self._redirect()
         if self.path == "/add":
             f = self._form()
             try:

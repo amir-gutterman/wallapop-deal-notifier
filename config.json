@@ -11,6 +11,17 @@
     "discount_below_median": 0.4,
     "min_samples_for_median": 6
   },
+  "exclude_keywords": [
+    "artificial",
+    "plastico",
+    "plastic",
+    "seda",
+    "falsa",
+    "falso",
+    "imitacion",
+    "decorativa",
+    "decoracion"
+  ],
   "searches": [
     {
       "keywords": "monstera",

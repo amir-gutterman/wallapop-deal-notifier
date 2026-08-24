@@ -22,6 +22,7 @@ import smtplib
 import statistics
 import sys
 import time
+import unicodedata
 import urllib.parse
 import urllib.request
 from email.message import EmailMessage
@@ -55,6 +56,17 @@ def load_json(path, default):
 def save_json(path, data):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+
+
+def fold(text):
+    """Lowercase and strip accents so 'Plástico' matches 'plastico'."""
+    text = unicodedata.normalize("NFKD", str(text or ""))
+    return "".join(c for c in text if not unicodedata.combining(c)).lower()
+
+
+def is_excluded(title, exclude_folded):
+    t = fold(title)
+    return any(kw and kw in t for kw in exclude_folded)
 
 
 def haversine_km(lat1, lon1, lat2, lon2):
@@ -171,6 +183,7 @@ def main():
     gp = cfg.get("good_price", {})
     discount = gp.get("discount_below_median", 0.40)
     min_samples = gp.get("min_samples_for_median", 6)
+    exclude_folded = [fold(kw) for kw in cfg.get("exclude_keywords", []) if kw.strip()]
 
     all_deals = []
     new_ids = set()
@@ -187,6 +200,9 @@ def main():
         market = [r for r in market if r["price"] is not None]
         if cfg.get("exclude_reserved", True):
             market = [r for r in market if not r["reserved"]]
+        # Drop unwanted listings (e.g. artificial / plastic plants) by title keyword.
+        if exclude_folded:
+            market = [r for r in market if not is_excluded(r["title"], exclude_folded)]
 
         # Median reflects the whole market for this term (before distance filter),
         # so relative-bargain detection has enough samples to be meaningful.
