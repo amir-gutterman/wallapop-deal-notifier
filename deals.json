@@ -15,7 +15,7 @@
       "<= max €20",
       "40% below median €10"
     ],
-    "is_new": true
+    "is_new": false
   },
   {
     "id": "qjwr0gq7nw6o",
@@ -33,24 +33,7 @@
       "<= max €20",
       "40% below median €10"
     ],
-    "is_new": true
-  },
-  {
-    "id": "wzvgpdgyx7zl",
-    "title": "Decoración Beach Party Tropical",
-    "price": 5.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 1.4,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/decoracion-beach-party-tropical-1294342841",
-    "created_at": 1787583973998,
-    "search": "monstera",
-    "reasons": [
-      "<= max €25"
-    ],
-    "is_new": true
+    "is_new": false
   },
   {
     "id": "mzn3d700x7jn",
@@ -68,7 +51,7 @@
       "<= max €20",
       "40% below median €10"
     ],
-    "is_new": true
+    "is_new": false
   },
   {
     "id": "xzog9wvk9lj9",
@@ -85,7 +68,7 @@
     "reasons": [
       "<= max €15.0"
     ],
-    "is_new": true
+    "is_new": false
   },
   {
     "id": "mzn3d72k87jn",
@@ -102,7 +85,7 @@
     "reasons": [
       "<= max €20"
     ],
-    "is_new": true
+    "is_new": false
   },
   {
     "id": "4z48m3k7xmjy",
@@ -119,6 +102,6 @@
     "reasons": [
       "<= max €25"
     ],
-    "is_new": true
+    "is_new": false
   }
 ]
