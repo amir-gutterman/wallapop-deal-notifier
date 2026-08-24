@@ -1,5 +1,22 @@
 [
   {
+    "id": "xzog9wvk9lj9",
+    "title": "Plantas naturales,  Sansevieria. 5y 9€.",
+    "price": 12.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 8.3,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/plantas-naturales-sansevieria-5y-9-1294300081",
+    "created_at": 1787576990830,
+    "search": "sansevieria",
+    "reasons": [
+      "<= max €15.0"
+    ],
+    "is_new": true
+  },
+  {
     "id": "0j28xkgdvmjy",
     "title": "Planta Potos variegada",
     "price": 4.0,
@@ -13,25 +30,7 @@
     "search": "potos",
     "reasons": [
       "<= max €12",
-      "40% below median €12"
-    ],
-    "is_new": false
-  },
-  {
-    "id": "3zlm35vgx4jx",
-    "title": "Planta Poto",
-    "price": 5.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 10.4,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/planta-poto-1293900193",
-    "created_at": 1787481539078,
-    "search": "potos",
-    "reasons": [
-      "<= max €12",
-      "40% below median €12"
+      "40% below median €15"
     ],
     "is_new": false
   },
@@ -49,40 +48,6 @@
     "search": "ficus",
     "reasons": [
       "<= max €20"
-    ],
-    "is_new": false
-  },
-  {
-    "id": "nz08kxg7q76o",
-    "title": "Monstera Albo Variegata N°2",
-    "price": 20.0,
-    "currency": "EUR",
-    "city": "Getafe",
-    "distance_km": 12.7,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/monstera-albo-variegata-n2-1293953975",
-    "created_at": 1787488682420,
-    "search": "monstera",
-    "reasons": [
-      "<= max €25"
-    ],
-    "is_new": false
-  },
-  {
-    "id": "ejkmowxgoyzx",
-    "title": "Monstera Albo Variegata N°1",
-    "price": 25.0,
-    "currency": "EUR",
-    "city": "Getafe",
-    "distance_km": 12.7,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/monstera-albo-variegata-n1-1293953347",
-    "created_at": 1787488560363,
-    "search": "monstera",
-    "reasons": [
-      "<= max €25"
     ],
     "is_new": false
   },
