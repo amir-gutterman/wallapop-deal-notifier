@@ -1,5 +1,6 @@
 name: Wallapop daily deals
 
+# Searches Wallapop for plant bargains near Madrid and emails new ones daily.
 on:
   schedule:
     - cron: "0 13 * * *"   # 13:00 UTC = 15:00 Spain
