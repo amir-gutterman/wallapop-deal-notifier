@@ -1,107 +1,157 @@
 [
   {
-    "id": "8j381krg5lz9",
-    "title": "Alocasia Polly",
-    "price": 3.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 5.5,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/alocasia-polly-1294389134",
-    "created_at": 1787590662248,
-    "search": "alocasia",
-    "reasons": [
-      "<= max €20",
-      "40% below median €10"
-    ],
-    "is_new": false
-  },
-  {
-    "id": "qjwr0gq7nw6o",
-    "title": "Cormos Alocasia Silver Dragon",
+    "id": "8j381lm7dyz9",
+    "title": "Potos Global Green pequeño.",
     "price": 4.0,
     "currency": "EUR",
     "city": "Madrid",
-    "distance_km": 5.5,
+    "distance_km": 3.6,
     "reserved": false,
     "shippable": true,
-    "url": "https://es.wallapop.com/item/cormos-alocasia-silver-dragon-1294387553",
-    "created_at": 1787590428714,
-    "search": "alocasia",
+    "url": "https://es.wallapop.com/item/potos-global-green-pequeno-1294616834",
+    "created_at": 1787658360721,
+    "search": "potos",
     "reasons": [
-      "<= max €20",
-      "40% below median €10"
+      "<= max €12"
     ],
-    "is_new": false
+    "is_new": true
   },
   {
-    "id": "mzn3d700x7jn",
-    "title": "Dos Cormos Alocasia Pink Dragon",
-    "price": 5.0,
+    "id": "pzpk4mydvmj3",
+    "title": "Sansevieria con maceta de terracota",
+    "price": 8.0,
     "currency": "EUR",
     "city": "Madrid",
-    "distance_km": 5.5,
+    "distance_km": 6.1,
     "reserved": false,
     "shippable": true,
-    "url": "https://es.wallapop.com/item/dos-cormos-alocasia-pink-dragon-1294388125",
-    "created_at": 1787590513152,
-    "search": "alocasia",
+    "url": "https://es.wallapop.com/item/sansevieria-con-maceta-de-terracota-1294608374",
+    "created_at": 1787657098367,
+    "search": "sansevieria",
     "reasons": [
-      "<= max €20",
-      "40% below median €10"
+      "<= max €15.0",
+      "40% below median €20"
     ],
-    "is_new": false
+    "is_new": true
   },
   {
-    "id": "xzog9wvk9lj9",
-    "title": "Plantas naturales,  Sansevieria. 5y 9€.",
+    "id": "pj949lgd7k6e",
+    "title": "Potos con maceta de cerámica - €10",
+    "price": 10.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 1.9,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/potos-con-maceta-de-ceramica-10-1294631785",
+    "created_at": 1787660565744,
+    "search": "potos",
+    "reasons": [
+      "<= max €12"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "pj949lgd7k6e",
+    "title": "Potos con maceta de cerámica - €10",
+    "price": 10.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 1.9,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/potos-con-maceta-de-ceramica-10-1294631785",
+    "created_at": 1787660565744,
+    "search": "ficus",
+    "reasons": [
+      "<= max €20",
+      "40% below median €23"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "p618wmm7kxz5",
+    "title": "Calathea sanguínea triostar",
     "price": 12.0,
     "currency": "EUR",
     "city": "Madrid",
-    "distance_km": 8.3,
+    "distance_km": 7.6,
     "reserved": false,
     "shippable": true,
-    "url": "https://es.wallapop.com/item/plantas-naturales-sansevieria-5y-9-1294300081",
-    "created_at": 1787576990830,
-    "search": "sansevieria",
+    "url": "https://es.wallapop.com/item/calathea-sanguinea-triostar-1294439831",
+    "created_at": 1787598651007,
+    "search": "calathea",
     "reasons": [
-      "<= max €15.0"
+      "<= max €15"
     ],
-    "is_new": false
+    "is_new": true
   },
   {
-    "id": "mzn3d72k87jn",
-    "title": "Planta Alocasia",
+    "id": "pzpk4m85k4j3",
+    "title": "Mochila Ocean Wave estampado tropical",
     "price": 15.0,
     "currency": "EUR",
-    "city": "Getafe",
-    "distance_km": 12.6,
+    "city": "Madrid",
+    "distance_km": 8.9,
     "reserved": false,
     "shippable": true,
-    "url": "https://es.wallapop.com/item/planta-alocasia-1294337197",
-    "created_at": 1787583125964,
+    "url": "https://es.wallapop.com/item/mochila-ocean-wave-estampado-tropical-1294595874",
+    "created_at": 1787655335408,
+    "search": "monstera",
+    "reasons": [
+      "<= max €25"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "0j28xollxrjy",
+    "title": "Cormos Alocasia Pseudo Sanderiana Aurea",
+    "price": 20.0,
+    "currency": "EUR",
+    "city": "Rivas-Vaciamadrid",
+    "distance_km": 13.6,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/cormos-alocasia-pseudo-sanderiana-aurea-1294460211",
+    "created_at": 1787603523557,
     "search": "alocasia",
     "reasons": [
       "<= max €20"
     ],
-    "is_new": false
+    "is_new": true
   },
   {
-    "id": "4z48m3k7xmjy",
-    "title": "Philodendron Joepii x Paraiso Verde",
+    "id": "8z88dl1yvoz3",
+    "title": "Planta Ficus Elastica (Rubber Plant)",
+    "price": 20.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 1.9,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/planta-ficus-elastica-rubber-plant-1294630870",
+    "created_at": 1787660423580,
+    "search": "ficus",
+    "reasons": [
+      "<= max €20"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "mzn3d77l92jn",
+    "title": "Philodendron",
     "price": 25.0,
     "currency": "EUR",
     "city": "Madrid",
-    "distance_km": 0.1,
+    "distance_km": 7.6,
     "reserved": false,
     "shippable": true,
-    "url": "https://es.wallapop.com/item/philodendron-joepii-x-paraiso-verde-1294090986",
-    "created_at": 1787510556663,
+    "url": "https://es.wallapop.com/item/philodendron-1294439597",
+    "created_at": 1787598595728,
     "search": "philodendron",
     "reasons": [
       "<= max €25"
     ],
-    "is_new": false
+    "is_new": true
   }
 ]
