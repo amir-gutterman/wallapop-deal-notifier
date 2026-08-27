@@ -1,277 +1,84 @@
 [
   {
-    "id": "8j381lwe1lz9",
-    "title": "Intercambio esquejes de plantas",
-    "price": 0.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 2.5,
-    "reserved": false,
-    "shippable": false,
-    "url": "https://es.wallapop.com/item/intercambio-esquejes-de-plantas-1294827710",
-    "created_at": 1787691478671,
-    "search": "pothos",
-    "reasons": [
-      "<= max €12",
-      "40% below median €6"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "8j381lwe1lz9",
-    "title": "Intercambio esquejes de plantas",
-    "price": 0.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 2.5,
-    "reserved": false,
-    "shippable": false,
-    "url": "https://es.wallapop.com/item/intercambio-esquejes-de-plantas-1294827710",
-    "created_at": 1787691478671,
-    "search": "potos",
-    "reasons": [
-      "<= max €12",
-      "40% below median €10"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "vjreg8yyewzk",
-    "title": "Esqueje philodendron brasil",
+    "id": "wzyrwpeoxv65",
+    "title": "Calathea yellow fusion mini",
     "price": 3.0,
     "currency": "EUR",
     "city": "Madrid",
     "distance_km": 7.5,
     "reserved": false,
     "shippable": true,
-    "url": "https://es.wallapop.com/item/esqueje-philodendron-brasil-1294921891",
-    "created_at": 1787734621614,
+    "url": "https://es.wallapop.com/item/calathea-yellow-fusion-mini-1295259468",
+    "created_at": 1787814086103,
+    "search": "calathea",
+    "reasons": [
+      "<= max €15"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "8z88dn5m48z3",
+    "title": "Philodendron Pink Princess",
+    "price": 7.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 1.5,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/philodendron-pink-princess-1295362470",
+    "created_at": 1787831810406,
     "search": "philodendron",
-    "reasons": [
-      "<= max €25",
-      "40% below median €10"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "8z88d05xg8z3",
-    "title": "Esqueje Monstera Deliciosa",
-    "price": 4.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 8.1,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/esqueje-monstera-deliciosa-1295030094",
-    "created_at": 1787750672768,
-    "search": "monstera",
-    "reasons": [
-      "<= max €25",
-      "40% below median €15"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "xzog91wrewj9",
-    "title": "Potho marble queen",
-    "price": 4.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 7.5,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/potho-marble-queen-1294772533",
-    "created_at": 1787680760242,
-    "search": "pothos",
-    "reasons": [
-      "<= max €12"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "x6qqeo19556y",
-    "title": "Potho manjula",
-    "price": 4.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 7.5,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/potho-manjula-1294771942",
-    "created_at": 1787680682378,
-    "search": "pothos",
-    "reasons": [
-      "<= max €12"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "pzpk4m3w3mj3",
-    "title": "Philodendron White princess",
-    "price": 5.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 7.5,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/philodendron-white-princess-1294761326",
-    "created_at": 1787679166569,
-    "search": "philodendron",
-    "reasons": [
-      "<= max €25",
-      "40% below median €10"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "w67v2lp3e86x",
-    "title": "Caja acrílico con rejilla para cormos",
-    "price": 6.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 7.5,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/caja-acrilico-con-rejilla-para-cormos-1294798152",
-    "created_at": 1787684934791,
-    "search": "alocasia",
-    "reasons": [
-      "<= max €20",
-      "40% below median €10"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "e65qo58qeg6o",
-    "title": "Cama para mascota con estampado tropical",
-    "price": 10.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 12.6,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/cama-para-mascota-con-estampado-tropical-1294994572",
-    "created_at": 1787745186475,
-    "search": "monstera",
     "reasons": [
       "<= max €25"
     ],
     "is_new": true
   },
   {
-    "id": "36e50rv10v6d",
-    "title": "Calathea ornata",
-    "price": 10.0,
+    "id": "wzvgpe4231zl",
+    "title": "Philodendron Pink Princess",
+    "price": 8.0,
     "currency": "EUR",
     "city": "Madrid",
-    "distance_km": 3.1,
+    "distance_km": 1.5,
     "reserved": false,
     "shippable": true,
-    "url": "https://es.wallapop.com/item/calathea-ornata-1294745339",
-    "created_at": 1787677084226,
-    "search": "calathea",
-    "reasons": [
-      "<= max €15"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "8j381l23m1z9",
-    "title": "Planta Calathea Peacock",
-    "price": 10.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 3.1,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/planta-calathea-peacock-1294741482",
-    "created_at": 1787676562038,
-    "search": "calathea",
-    "reasons": [
-      "<= max €15"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "pzpk4m5m84j3",
-    "title": "Calathea",
-    "price": 10.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 3.1,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/calathea-1294736274",
-    "created_at": 1787675829230,
-    "search": "calathea",
-    "reasons": [
-      "<= max €15"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "36e50k8poy6d",
-    "title": "Monstera Adansonii",
-    "price": 12.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 4.1,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/monstera-adansonii-1295023363",
-    "created_at": 1787749646281,
-    "search": "monstera",
+    "url": "https://es.wallapop.com/item/philodendron-pink-princess-1295326941",
+    "created_at": 1787826552252,
+    "search": "philodendron",
     "reasons": [
       "<= max €25"
     ],
     "is_new": true
   },
   {
-    "id": "nz08kldp876o",
-    "title": "Calathea Rattlesnake Planta",
-    "price": 12.5,
+    "id": "8j381dyg5yz9",
+    "title": "Philodendron Pink Princess Planta",
+    "price": 8.0,
     "currency": "EUR",
     "city": "Madrid",
-    "distance_km": 3.1,
+    "distance_km": 9.5,
     "reserved": false,
     "shippable": true,
-    "url": "https://es.wallapop.com/item/calathea-rattlesnake-planta-1294751975",
-    "created_at": 1787677923167,
-    "search": "calathea",
-    "reasons": [
-      "<= max €15"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "pj949l8v5k6e",
-    "title": "Calathea Elgergrass / Terciopelo Burdeos",
-    "price": 13.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 4.5,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/calathea-elgergrass-terciopelo-burdeos-1294913185",
-    "created_at": 1787732845658,
-    "search": "calathea",
-    "reasons": [
-      "<= max €15"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "w67v2lrd0y6x",
-    "title": "Philodendron Brasil Planta Colgante",
-    "price": 17.5,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 3.1,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/philodendron-brasil-planta-colgante-1294729804",
-    "created_at": 1787674942722,
+    "url": "https://es.wallapop.com/item/philodendron-pink-princess-planta-1295287682",
+    "created_at": 1787820688427,
     "search": "philodendron",
+    "reasons": [
+      "<= max €25"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "4z48m9ykrrjy",
+    "title": "Set 5 plantas con macetero",
+    "price": 20.0,
+    "currency": "EUR",
+    "city": "Pozuelo de Alarcón",
+    "distance_km": 9.2,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/set-5-plantas-con-macetero-1295273914",
+    "created_at": 1787817892723,
+    "search": "monstera",
     "reasons": [
       "<= max €25"
     ],
