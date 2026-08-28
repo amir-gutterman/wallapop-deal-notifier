@@ -33,6 +33,7 @@ SEEN_PATH = os.path.join(HERE, "seen.json")
 RESULTS_PATH = os.path.join(HERE, "deals.json")
 
 API_URL = "https://api.wallapop.com/api/v3/search"
+MANAGE_URL = "https://amir-gutterman.github.io/wallapop-deal-notifier/"
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -138,6 +139,11 @@ def build_email_html(deals, city):
         f'<p style="color:#666;margin:0 0 12px;font-size:13px">'
         f'Under your max price or 40% below market median.</p>'
         f'<table style="border-collapse:collapse;width:100%">{"".join(rows)}</table>'
+        f'<p style="margin:18px 0 0">'
+        f'<a href="{MANAGE_URL}" style="display:inline-block;background:#0b8f4d;'
+        f'color:#fff;text-decoration:none;padding:10px 18px;border-radius:8px;'
+        f'font-family:system-ui,Arial,sans-serif;font-weight:600">'
+        f'⚙️ Manage watch-list</a></p>'
         f'</div>'
     )
 
@@ -160,7 +166,7 @@ def send_email(deals, city):
         f"€{d['price']:.0f}  {d['title']}  [{d['city']}, "
         f"{d['distance_km']}km]  {d['url']}" for d in deals
     )
-    msg.set_content(plain or "No new deals.")
+    msg.set_content((plain or "No new deals.") + f"\n\nManage watch-list: {MANAGE_URL}")
     msg.add_alternative(build_email_html(deals, city), subtype="html")
 
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as s:

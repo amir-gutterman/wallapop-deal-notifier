@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b6b3a">
+<title>Wallapop Deal Watch</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg:#f6f7f8; --card:#fff; --ink:#1a1c1e; --muted:#6b7280; --line:#e3e6ea;
+    --brand:#0b8f4d; --brand-ink:#fff; --chip:#eef1f4; --danger:#d9435f;
+    --accent:#1a73e8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#111315; --card:#1b1e21; --ink:#e8eaed; --muted:#9aa2ab;
+            --line:#2a2f34; --chip:#262b30; }
+  }
+  * { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+         font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif; line-height:1.45;
+         padding:env(safe-area-inset-top) 0 40px; }
+  header { position:sticky; top:0; background:var(--brand); color:var(--brand-ink);
+           padding:14px 16px calc(14px); font-weight:700; font-size:1.15rem;
+           display:flex; align-items:center; gap:8px; z-index:5;
+           padding-top:calc(14px + env(safe-area-inset-top)); }
+  main { max-width:640px; margin:0 auto; padding:16px; }
+  h2 { font-size:.95rem; text-transform:uppercase; letter-spacing:.04em;
+       color:var(--muted); margin:22px 4px 8px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px;
+          padding:12px 14px; margin:10px 0; }
+  .row { display:flex; align-items:center; gap:10px; }
+  .grow { flex:1; min-width:0; }
+  .name { font-weight:600; }
+  .sub { color:var(--muted); font-size:.85rem; }
+  input, button { font:inherit; }
+  input { padding:11px 12px; border-radius:10px; border:1px solid var(--line);
+          background:var(--bg); color:inherit; width:100%; }
+  button { border:0; border-radius:10px; padding:11px 14px; font-weight:600;
+           background:var(--brand); color:var(--brand-ink); cursor:pointer; }
+  button.secondary { background:var(--chip); color:var(--ink); }
+  button.ghost { background:transparent; color:var(--danger); padding:8px 10px;
+                 font-size:1.3rem; line-height:1; }
+  button:disabled { opacity:.5; }
+  .chips { display:flex; flex-wrap:wrap; gap:8px; }
+  .chip { display:inline-flex; align-items:center; gap:4px; background:var(--chip);
+          border-radius:999px; padding:6px 6px 6px 14px; font-size:.9rem; }
+  .chip button { background:transparent; color:var(--danger); padding:0 8px;
+                 font-size:1.1rem; font-weight:700; }
+  .deal { border-left:4px solid var(--brand); padding:10px 12px; margin:8px 0;
+          background:var(--card); border:1px solid var(--line); border-radius:0 12px 12px 0; }
+  .deal.old { border-left-color:var(--line); }
+  .price { font-weight:800; font-size:1.05rem; }
+  .badge { background:var(--brand); color:var(--brand-ink); border-radius:6px;
+           padding:1px 6px; font-size:.68rem; font-weight:800; vertical-align:middle; }
+  a { color:var(--accent); text-decoration:none; }
+  .bar { display:flex; gap:10px; margin:14px 0; }
+  .bar button { flex:1; }
+  .toast { position:fixed; left:50%; bottom:22px; transform:translateX(-50%);
+           background:#222; color:#fff; padding:10px 16px; border-radius:10px;
+           font-size:.9rem; opacity:0; transition:opacity .2s; pointer-events:none;
+           max-width:90%; z-index:20; }
+  .toast.show { opacity:1; }
+  .toast.err { background:var(--danger); }
+  .muted { color:var(--muted); }
+  .hide { display:none !important; }
+  .setup ol { padding-left:20px; } .setup li { margin:6px 0; }
+  code { background:var(--chip); padding:1px 5px; border-radius:5px; font-size:.85em; }
+  .dirty-dot { width:9px; height:9px; border-radius:50%; background:#f5a623;
+               display:inline-block; margin-left:6px; }
+</style>
+</head>
+<body>
+<header>🌱 Wallapop Deal Watch <span id="dirty" class="hide"><span class="dirty-dot"></span></span></header>
+<main>
+
+  <!-- SETUP (shown until a token is stored) -->
+  <section id="setup" class="hide">
+    <div class="card setup">
+      <p>To manage your watch-list from here, this page needs a GitHub token with
+         access to your <code>wallapop-deal-notifier</code> repo. It's stored only
+         in this browser.</p>
+      <ol>
+        <li>Open <a href="https://github.com/settings/personal-access-tokens/new" target="_blank">github.com → new fine-grained token</a></li>
+        <li>Resource owner: <code>amir-gutterman</code></li>
+        <li>Repository access → <b>Only select repositories</b> → <code>wallapop-deal-notifier</code></li>
+        <li>Permissions → <b>Contents: Read and write</b> and <b>Actions: Read and write</b></li>
+        <li>Generate, copy the <code>github_pat_…</code> token, paste below</li>
+      </ol>
+      <div class="row" style="margin-top:8px">
+        <input id="tokenInput" class="grow" type="password" placeholder="github_pat_…" autocomplete="off">
+        <button onclick="saveToken()">Save</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- APP (shown once loaded) -->
+  <section id="app" class="hide">
+    <div class="bar">
+      <button id="saveBtn" onclick="saveConfig()" disabled>Save changes</button>
+      <button class="secondary" onclick="runNow()">Run &amp; email now</button>
+    </div>
+
+    <h2>Watch-list</h2>
+    <div id="searches"></div>
+    <div class="card">
+      <div class="row"><input id="newKw" class="grow" placeholder="search term (e.g. sansevieria)"></div>
+      <div class="row" style="margin-top:8px">
+        <input id="newMax" class="grow" type="number" inputmode="decimal" placeholder="max €">
+        <button onclick="addSearch()">Add</button>
+      </div>
+    </div>
+
+    <h2>Exclude words</h2>
+    <p class="muted" style="margin:0 4px 6px;font-size:.85rem">
+      Listings whose title contains one of these are dropped (e.g. artificial, plástico).</p>
+    <div class="card">
+      <div id="excludes" class="chips"></div>
+      <div class="row" style="margin-top:10px">
+        <input id="newEx" class="grow" placeholder="word to exclude">
+        <button onclick="addExclude()">Add</button>
+      </div>
+    </div>
+
+    <h2>Latest deals <span id="dealMeta" class="muted" style="text-transform:none;letter-spacing:0"></span></h2>
+    <div class="bar" style="margin-top:0">
+      <button class="secondary" onclick="loadDeals(true)">↻ Refresh deals</button>
+      <button class="ghost" style="flex:0 0 auto;color:var(--muted)" onclick="signOut()">Sign out</button>
+    </div>
+    <div id="deals"></div>
+  </section>
+</main>
+<div id="toast" class="toast"></div>
+
+<script>
+const OWNER="amir-gutterman", REPO="wallapop-deal-notifier",
+      BRANCH="master", WORKFLOW="daily.yml", TOKEN_KEY="wp_gh_token";
+let token=null, config=null, configSha=null, dirty=false;
+
+const $=id=>document.getElementById(id);
+function toast(msg,isErr){const t=$("toast");t.textContent=msg;
+  t.className="toast show"+(isErr?" err":"");setTimeout(()=>t.className="toast",2600);}
+
+// ---- base64 <-> UTF-8 (handles accents like plástico) ----
+function b64ToStr(b64){const bin=atob(b64.replace(/\n/g,""));
+  const bytes=Uint8Array.from(bin,c=>c.charCodeAt(0));
+  return new TextDecoder("utf-8").decode(bytes);}
+function strToB64(str){const bytes=new TextEncoder().encode(str);
+  let bin="";bytes.forEach(b=>bin+=String.fromCharCode(b));return btoa(bin);}
+
+async function api(path,opts={}){
+  const res=await fetch("https://api.github.com"+path,{...opts,headers:{
+    "Authorization":"Bearer "+token,"Accept":"application/vnd.github+json",
+    "X-GitHub-Api-Version":"2022-11-28",...(opts.headers||{})}});
+  if(res.status===401||res.status===403){signOut();throw new Error("Token rejected — please re-enter it.");}
+  return res;
+}
+async function getFile(name){
+  const r=await api(`/repos/${OWNER}/${REPO}/contents/${name}?ref=${BRANCH}&t=${Date.now()}`);
+  if(!r.ok)throw new Error(name+": "+r.status);
+  const j=await r.json();return{json:JSON.parse(b64ToStr(j.content)),sha:j.sha};
+}
+
+// ---- token / boot ----
+function saveToken(){const v=$("tokenInput").value.trim();
+  if(!v)return toast("Paste a token first",true);
+  localStorage.setItem(TOKEN_KEY,v);token=v;boot();}
+function signOut(){localStorage.removeItem(TOKEN_KEY);token=null;
+  $("app").classList.add("hide");$("setup").classList.remove("hide");}
+function markDirty(d){dirty=d;$("saveBtn").disabled=!d;$("dirty").classList.toggle("hide",!d);}
+
+async function boot(){
+  token=localStorage.getItem(TOKEN_KEY);
+  if(!token){$("setup").classList.remove("hide");return;}
+  $("setup").classList.add("hide");$("app").classList.remove("hide");
+  try{
+    const c=await getFile("config.json");config=c.json;configSha=c.sha;
+    renderSearches();renderExcludes();markDirty(false);
+    loadDeals(false);
+  }catch(e){toast(e.message,true);}
+}
+
+// ---- render ----
+function renderSearches(){
+  $("searches").innerHTML=(config.searches||[]).map((s,i)=>
+    `<div class="card"><div class="row">
+       <div class="grow"><div class="name">${esc(s.keywords)}</div>
+       <div class="sub">max €${s.max_price}</div></div>
+       <button class="ghost" onclick="delSearch(${i})">×</button></div></div>`).join("")
+    ||`<p class="muted" style="margin:4px">No searches yet.</p>`;
+}
+function renderExcludes(){
+  $("excludes").innerHTML=(config.exclude_keywords||[]).map((w,i)=>
+    `<span class="chip">${esc(w)}<button onclick="delExclude(${i})">×</button></span>`).join("")
+    ||`<span class="muted">None yet.</span>`;
+}
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
+
+// ---- edits (local until Save) ----
+function addSearch(){const kw=$("newKw").value.trim();const mp=parseFloat($("newMax").value);
+  if(!kw||isNaN(mp))return toast("Enter a term and max price",true);
+  config.searches=config.searches||[];config.searches.push({keywords:kw,max_price:mp});
+  $("newKw").value="";$("newMax").value="";renderSearches();markDirty(true);}
+function delSearch(i){config.searches.splice(i,1);renderSearches();markDirty(true);}
+function addExclude(){const w=$("newEx").value.trim();if(!w)return;
+  config.exclude_keywords=config.exclude_keywords||[];
+  if(!config.exclude_keywords.some(x=>x.toLowerCase()===w.toLowerCase()))
+    config.exclude_keywords.push(w);
+  $("newEx").value="";renderExcludes();markDirty(true);}
+function delExclude(i){config.exclude_keywords.splice(i,1);renderExcludes();markDirty(true);}
+
+// ---- save (commit config.json) ----
+async function saveConfig(){
+  $("saveBtn").disabled=true;
+  try{
+    const body={message:"Update watch-list from mobile",branch:BRANCH,sha:configSha,
+      content:strToB64(JSON.stringify(config,null,2)+"\n")};
+    const r=await api(`/repos/${OWNER}/${REPO}/contents/config.json`,
+      {method:"PUT",body:JSON.stringify(body)});
+    if(!r.ok)throw new Error("Save failed: "+r.status);
+    configSha=(await r.json()).content.sha;markDirty(false);toast("Saved ✓");
+  }catch(e){toast(e.message,true);markDirty(true);}
+}
+
+// ---- run workflow ----
+async function runNow(){
+  try{
+    const r=await api(`/repos/${OWNER}/${REPO}/actions/workflows/${WORKFLOW}/dispatches`,
+      {method:"POST",body:JSON.stringify({ref:BRANCH,inputs:{test_email:"true"}})});
+    if(r.status!==204)throw new Error("Run failed: "+r.status);
+    toast("Running — email on its way. Refresh deals in ~1 min.");
+  }catch(e){toast(e.message,true);}
+}
+
+// ---- deals ----
+async function loadDeals(user){
+  try{
+    const d=await getFile("deals.json");const deals=d.json;
+    const nNew=deals.filter(x=>x.is_new).length;
+    $("dealMeta").textContent=`· ${deals.length} deal(s), ${nNew} new`;
+    $("deals").innerHTML=deals.map(x=>{
+      const dist=x.distance_km!=null?x.distance_km+"km":"?";
+      const badge=x.is_new?`<span class="badge">NEW</span> `:"";
+      return `<div class="deal ${x.is_new?"":"old"}">${badge}
+        <span class="price">€${Math.round(x.price)}</span> · ${esc(x.title)}<br>
+        <span class="sub">${esc(x.city||"")} · ${dist} · ${esc((x.reasons||[]).join(", "))}</span><br>
+        <a href="${esc(x.url)}" target="_blank">view listing ↗</a></div>`;
+    }).join("")||`<p class="muted" style="margin:4px">No deals yet — hit “Run &amp; email now”.</p>`;
+    if(user)toast("Deals refreshed");
+  }catch(e){if(user)toast(e.message,true);}
+}
+
+boot();
+</script>
+</body>
+</html>
