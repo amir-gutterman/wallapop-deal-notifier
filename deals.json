@@ -1,5 +1,248 @@
 [
   {
+    "id": "36e50084gv6d",
+    "title": "Alocasia Polly",
+    "price": 3.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 10.5,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/alocasia-polly-1296023339",
+    "created_at": 1787999599375,
+    "search": "alocasia",
+    "reasons": [
+      "<= max €20",
+      "40% below median €10"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "e65qoo73xk6o",
+    "title": "Alocasia Pink Dragon",
+    "price": 3.5,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 10.5,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/alocasia-pink-dragon-1296016096",
+    "created_at": 1787998618712,
+    "search": "alocasia",
+    "reasons": [
+      "<= max €20",
+      "40% below median €10"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "0j28xx8y5rjy",
+    "title": "Alocasia Cucullata",
+    "price": 4.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 10.5,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/alocasia-cucullata-1296001635",
+    "created_at": 1787996614722,
+    "search": "alocasia",
+    "reasons": [
+      "<= max €20",
+      "40% below median €10"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "3zlm338od8jx",
+    "title": "Alocasia Bambino",
+    "price": 4.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 10.5,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/alocasia-bambino-1295999669",
+    "created_at": 1787996317363,
+    "search": "alocasia",
+    "reasons": [
+      "<= max €20",
+      "40% below median €10"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "mzn3dd38o2jn",
+    "title": "Alocasia Regal Shield",
+    "price": 4.5,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 10.5,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/alocasia-regal-shield-1296002501",
+    "created_at": 1787996742918,
+    "search": "alocasia",
+    "reasons": [
+      "<= max €20",
+      "40% below median €10"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "v6gpww7mm56e",
+    "title": "Monstera Siltepecana",
+    "price": 6.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 5.5,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/monstera-siltepecana-1296027664",
+    "created_at": 1788000186556,
+    "search": "monstera",
+    "reasons": [
+      "<= max €25"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "8j3811vq38z9",
+    "title": "Philodendron 69686",
+    "price": 8.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 4.1,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/philodendron-69686-1295928558",
+    "created_at": 1787965645472,
+    "search": "philodendron",
+    "reasons": [
+      "<= max €25"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "qzmmkk7klozv",
+    "title": "Monstera Deliciosa Planta",
+    "price": 12.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 5.5,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/monstera-deliciosa-planta-1296024680",
+    "created_at": 1787999784858,
+    "search": "monstera",
+    "reasons": [
+      "<= max €25"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "pzpk44dk9lj3",
+    "title": "Philodendron Painted Lady",
+    "price": 12.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 5.5,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/philodendron-painted-lady-1296017350",
+    "created_at": 1787998791545,
+    "search": "philodendron",
+    "reasons": [
+      "<= max €25"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "mzn3ddop2yjn",
+    "title": "Alocasia planta",
+    "price": 15.0,
+    "currency": "EUR",
+    "city": "Getafe",
+    "distance_km": 12.6,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/alocasia-planta-1296034125",
+    "created_at": 1788001033122,
+    "search": "alocasia",
+    "reasons": [
+      "<= max €20"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "0j28xxn25djy",
+    "title": "Alocasia Macrorrhiza Auera Variegata Planta",
+    "price": 15.0,
+    "currency": "EUR",
+    "city": "Leganés",
+    "distance_km": 10.3,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/alocasia-macrorrhiza-auera-variegata-planta-1296023535",
+    "created_at": 1787999626473,
+    "search": "alocasia",
+    "reasons": [
+      "<= max €20"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "8j3811rkyyz9",
+    "title": "Monstera Deliciosa Planta",
+    "price": 20.0,
+    "currency": "EUR",
+    "city": "Getafe",
+    "distance_km": 12.6,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/monstera-deliciosa-planta-1296049010",
+    "created_at": 1788003042274,
+    "search": "monstera",
+    "reasons": [
+      "<= max €25"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "pj9499ndvo6e",
+    "title": "Philodendron Florida Ghost",
+    "price": 20.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 5.5,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/philodendron-florida-ghost-1296014061",
+    "created_at": 1787998344159,
+    "search": "philodendron",
+    "reasons": [
+      "<= max €25"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "36e5009ydk6d",
+    "title": "Bonsái Ficus Planta",
+    "price": 30.0,
+    "currency": "EUR",
+    "city": "Leganés",
+    "distance_km": 10.3,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/bonsai-ficus-planta-1295928039",
+    "created_at": 1787965364531,
+    "search": "ficus",
+    "reasons": [
+      "40% below median €64"
+    ],
+    "is_new": true
+  },
+  {
     "id": "4z48mx7rewjy",
     "title": "Esqueje Pothos Manjula",
     "price": 1.5,
@@ -12,26 +255,10 @@
     "created_at": 1787946047015,
     "search": "pothos",
     "reasons": [
-      "<= max €12"
+      "<= max €12",
+      "40% below median €6"
     ],
-    "is_new": true
-  },
-  {
-    "id": "wzvgp78w4qzl",
-    "title": "Planta Poto",
-    "price": 4.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 10.4,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/planta-potho-1295805441",
-    "created_at": 1787932763204,
-    "search": "potos",
-    "reasons": [
-      "<= max €12"
-    ],
-    "is_new": true
+    "is_new": false
   },
   {
     "id": "8j381w0lp1z9",
@@ -46,10 +273,9 @@
     "created_at": 1787946675194,
     "search": "philodendron",
     "reasons": [
-      "<= max €25",
-      "40% below median €10"
+      "<= max €25"
     ],
-    "is_new": true
+    "is_new": false
   },
   {
     "id": "v6gpwxdpvn6e",
@@ -66,7 +292,7 @@
     "reasons": [
       "<= max €12"
     ],
-    "is_new": true
+    "is_new": false
   },
   {
     "id": "nz08kp5dgr6o",
@@ -81,28 +307,9 @@
     "created_at": 1787946168074,
     "search": "philodendron",
     "reasons": [
-      "<= max €25",
-      "40% below median €10"
+      "<= max €25"
     ],
-    "is_new": true
-  },
-  {
-    "id": "p618w05mwdz5",
-    "title": "Ficus Elástica Robusta Planta",
-    "price": 5.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 1.0,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/ficus-elastica-robusta-planta-1295689979",
-    "created_at": 1787914597428,
-    "search": "ficus",
-    "reasons": [
-      "<= max €20",
-      "40% below median €25"
-    ],
-    "is_new": true
+    "is_new": false
   },
   {
     "id": "xzog949482j9",
@@ -117,10 +324,9 @@
     "created_at": 1787938584305,
     "search": "sansevieria",
     "reasons": [
-      "<= max €15.0",
-      "40% below median €9"
+      "<= max €15.0"
     ],
-    "is_new": true
+    "is_new": false
   },
   {
     "id": "mzn3dk5d9kjn",
@@ -137,46 +343,12 @@
     "reasons": [
       "<= max €12"
     ],
-    "is_new": true
-  },
-  {
-    "id": "v6gpwx8qv26e",
-    "title": "Monstera en jarrón cristal 60cm",
-    "price": 10.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 5.5,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/monstera-en-jarron-cristal-60cm-1295912140",
-    "created_at": 1787956255350,
-    "search": "monstera",
-    "reasons": [
-      "<= max €25"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "e65qo1l11p6o",
-    "title": "Juego Posavasos Monstera Hoja",
-    "price": 10.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 2.9,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/juego-posavasos-monstera-hoja-1295789024",
-    "created_at": 1787930365759,
-    "search": "monstera",
-    "reasons": [
-      "<= max €25"
-    ],
-    "is_new": true
+    "is_new": false
   },
   {
     "id": "3zlm32ory2jx",
     "title": "Poto en jarrón 40cm",
-    "price": 10.0,
+    "price": 7.0,
     "currency": "EUR",
     "city": "Madrid",
     "distance_km": 5.5,
@@ -188,6 +360,23 @@
     "reasons": [
       "<= max €12"
     ],
-    "is_new": true
+    "is_new": false
+  },
+  {
+    "id": "v6gpwx8qv26e",
+    "title": "Monstera en jarrón cristal 60cm",
+    "price": 8.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 5.5,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/monstera-en-jarron-cristal-60cm-1295912140",
+    "created_at": 1787956255350,
+    "search": "monstera",
+    "reasons": [
+      "<= max €25"
+    ],
+    "is_new": false
   }
 ]
