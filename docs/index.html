@@ -101,6 +101,19 @@
       <button class="secondary" onclick="runNow()">Run &amp; email now</button>
     </div>
 
+    <h2>Settings</h2>
+    <div class="card">
+      <div class="row">
+        <div class="grow">
+          <div class="name">Max distance</div>
+          <div class="sub" id="distSub">Hide deals farther than this away</div>
+        </div>
+        <input id="maxDist" class="grow" style="flex:0 0 90px" type="number" min="0"
+               step="0.5" inputmode="decimal" oninput="onMaxDistChange()">
+        <span class="sub">km</span>
+      </div>
+    </div>
+
     <h2>Watch-list</h2>
     <div id="searches"></div>
     <div class="card">
@@ -175,12 +188,17 @@ async function boot(){
   $("setup").classList.add("hide");$("app").classList.remove("hide");
   try{
     const c=await getFile("config.json");config=c.json;configSha=c.sha;
-    renderSearches();renderExcludes();markDirty(false);
+    renderSettings();renderSearches();renderExcludes();markDirty(false);
     loadDeals(false);
   }catch(e){toast(e.message,true);}
 }
 
 // ---- render ----
+function renderSettings(){
+  $("maxDist").value=config.max_distance_km ?? "";
+  const city=config.location&&config.location.city;
+  $("distSub").textContent="Hide deals farther than this"+(city?` from ${city}`:" away");
+}
 function renderSearches(){
   $("searches").innerHTML=(config.searches||[]).map((s,i)=>
     `<div class="card"><div class="row">
@@ -197,6 +215,11 @@ function renderExcludes(){
 function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
 
 // ---- edits (local until Save) ----
+function onMaxDistChange(){
+  const v=parseFloat($("maxDist").value);
+  config.max_distance_km=isNaN(v)?null:v;
+  markDirty(true);
+}
 function addSearch(){const kw=$("newKw").value.trim();const mp=parseFloat($("newMax").value);
   if(!kw||isNaN(mp))return toast("Enter a term and max price",true);
   config.searches=config.searches||[];config.searches.push({keywords:kw,max_price:mp});

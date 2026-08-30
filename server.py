@@ -70,8 +70,21 @@ PAGE = """<!doctype html>
                  border-radius: 999px; padding: 0 8px; line-height: 1.4; }}
 </style></head><body>
 <h1>🌱 Wallapop Deal Watch</h1>
-<p class="muted">Location: {city} · radius {radius} km · flag if under max price
+<p class="muted">Location: {city} · flag if under max price
    or {discount}% below market median</p>
+
+<h2>Settings</h2>
+<div class="card">
+  <form method="post" action="/set_distance" class="row">
+    <div>Max distance <span class="muted">— hide deals farther than this from {city}</span></div>
+    <div class="row" style="width:auto">
+      <input name="max_distance_km" type="number" min="0" step="0.5" value="{radius}"
+             style="width:90px" required>
+      <span class="muted">km</span>
+      <button type="submit">Save</button>
+    </div>
+  </form>
+</div>
 
 <h2>Watch-list</h2>
 {search_rows}
@@ -149,7 +162,7 @@ def render(run_note=""):
     gp = cfg.get("good_price", {})
     return PAGE.format(
         city=html.escape(str(cfg.get("location", {}).get("city", "?"))),
-        radius=cfg.get("max_distance_km", "?"),
+        radius=cfg.get("max_distance_km", ""),
         discount=int(gp.get("discount_below_median", 0.4) * 100),
         search_rows=search_rows,
         exclude_chips=exclude_chips,
@@ -199,6 +212,14 @@ class Handler(BaseHTTPRequestHandler):
                 cfg["exclude_keywords"].pop(int(f["index"]))
                 save_config(cfg)
             except (KeyError, ValueError, IndexError):
+                pass
+            return self._redirect()
+        if self.path == "/set_distance":
+            f = self._form()
+            try:
+                cfg["max_distance_km"] = float(f["max_distance_km"])
+                save_config(cfg)
+            except (KeyError, ValueError):
                 pass
             return self._redirect()
         if self.path == "/add":
