@@ -4,7 +4,7 @@
     "latitude": 40.4168,
     "longitude": -3.7038
   },
-  "max_distance_km": 15.0,
+  "max_distance_km": 3,
   "exclude_reserved": true,
   "require_shippable": false,
   "good_price": {
@@ -53,7 +53,7 @@
     },
     {
       "keywords": "sansevieria",
-      "max_price": 15.0
+      "max_price": 15
     }
   ]
 }
