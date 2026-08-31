@@ -1,103 +1,35 @@
 [
   {
-    "id": "9jdwpplyg26k",
-    "title": "Esquejes de Pothos con Variación",
-    "price": 2.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 9.2,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/esquejes-de-pothos-con-variacion-1296205036",
-    "created_at": 1788029604337,
-    "search": "pothos",
-    "reasons": [
-      "<= max €12"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "e65qoowlok6o",
-    "title": "Planta Potos con maceta",
-    "price": 7.0,
+    "id": "vjreg7qrdxzk",
+    "title": "Dracaena trifasciata planta (Lengua de Suegra)",
+    "price": 15.0,
     "currency": "EUR",
     "city": "Madrid",
     "distance_km": 2.1,
     "reserved": false,
     "shippable": true,
-    "url": "https://es.wallapop.com/item/planta-potos-con-maceta-1296215872",
-    "created_at": 1788032303302,
-    "search": "potos",
+    "url": "https://es.wallapop.com/item/dracaena-trifasciata-planta-lengua-de-suegra-1296652091",
+    "created_at": 1788161897074,
+    "search": "sansevieria",
     "reasons": [
-      "<= max €12"
+      "<= max €15"
     ],
     "is_new": true
   },
   {
-    "id": "pzpk40d5klj3",
-    "title": "Alocasia Zebrina Planta",
-    "price": 10.0,
+    "id": "vjreg7y4m8zk",
+    "title": "Ficus con maceta de mimbre",
+    "price": 20.0,
     "currency": "EUR",
     "city": "Madrid",
-    "distance_km": 3.1,
+    "distance_km": 1.6,
     "reserved": false,
     "shippable": true,
-    "url": "https://es.wallapop.com/item/alocasia-zebrina-planta-1296351526",
-    "created_at": 1788086451303,
-    "search": "alocasia",
+    "url": "https://es.wallapop.com/item/ficus-con-maceta-de-mimbre-1296584967",
+    "created_at": 1788122062572,
+    "search": "ficus",
     "reasons": [
       "<= max €20"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "qjwr003gke6o",
-    "title": "Philodendron Strawberry Shake",
-    "price": 13.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 0.1,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/philodendron-strawberry-shake-1296187705",
-    "created_at": 1788026024133,
-    "search": "philodendron",
-    "reasons": [
-      "<= max €25"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "x6qqee7w5o6y",
-    "title": "Philodendron Orange",
-    "price": 14.5,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 3.1,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/philodendron-orange-1296186590",
-    "created_at": 1788025822895,
-    "search": "philodendron",
-    "reasons": [
-      "<= max €25"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "e65qondl806o",
-    "title": "Monstera Deliciosa",
-    "price": 18.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 5.5,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/monstera-deliciosa-1296436748",
-    "created_at": 1788099001588,
-    "search": "monstera",
-    "reasons": [
-      "<= max €25"
     ],
     "is_new": true
   }
