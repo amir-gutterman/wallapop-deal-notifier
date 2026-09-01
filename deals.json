@@ -1,35 +1,54 @@
 [
   {
-    "id": "vjreg7qrdxzk",
-    "title": "Dracaena trifasciata planta (Lengua de Suegra)",
-    "price": 15.0,
+    "id": "x6qqep7d9y6y",
+    "title": "Ficus Pumila Verde - Green",
+    "price": 4.0,
     "currency": "EUR",
     "city": "Madrid",
-    "distance_km": 2.1,
+    "distance_km": 1.0,
     "reserved": false,
     "shippable": true,
-    "url": "https://es.wallapop.com/item/dracaena-trifasciata-planta-lengua-de-suegra-1296652091",
-    "created_at": 1788161897074,
-    "search": "sansevieria",
+    "url": "https://es.wallapop.com/item/ficus-pumila-verde-1297177418",
+    "created_at": 1788272850146,
+    "search": "ficus",
     "reasons": [
-      "<= max €15"
+      "<= max €20",
+      "40% below median €28"
     ],
     "is_new": true
   },
   {
-    "id": "vjreg7y4m8zk",
-    "title": "Ficus con maceta de mimbre",
+    "id": "3zlm3qy43qjx",
+    "title": "Monstera Adansonii Planta",
+    "price": 5.5,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 1.0,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/monstera-adansonii-planta-1297176069",
+    "created_at": 1788272647205,
+    "search": "monstera",
+    "reasons": [
+      "<= max €25",
+      "40% below median €26"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "v6gpw9dxvl6e",
+    "title": "Pack Paula",
     "price": 20.0,
     "currency": "EUR",
     "city": "Madrid",
-    "distance_km": 1.6,
+    "distance_km": 0.8,
     "reserved": false,
     "shippable": true,
-    "url": "https://es.wallapop.com/item/ficus-con-maceta-de-mimbre-1296584967",
-    "created_at": 1788122062572,
-    "search": "ficus",
+    "url": "https://es.wallapop.com/item/pack-paula-1297226588",
+    "created_at": 1788279577339,
+    "search": "monstera",
     "reasons": [
-      "<= max €20"
+      "<= max €25"
     ],
     "is_new": true
   }
