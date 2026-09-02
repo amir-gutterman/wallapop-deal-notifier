@@ -1,54 +1,73 @@
 [
   {
-    "id": "x6qqep7d9y6y",
-    "title": "Ficus Pumila Verde - Green",
-    "price": 4.0,
+    "id": "p618wp20m5z5",
+    "title": "Philodendron Golden Dragon Planta",
+    "price": 10.0,
     "currency": "EUR",
     "city": "Madrid",
-    "distance_km": 1.0,
+    "distance_km": 0.1,
     "reserved": false,
     "shippable": true,
-    "url": "https://es.wallapop.com/item/ficus-pumila-verde-1297177418",
-    "created_at": 1788272850146,
-    "search": "ficus",
-    "reasons": [
-      "<= max €20",
-      "40% below median €28"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "3zlm3qy43qjx",
-    "title": "Monstera Adansonii Planta",
-    "price": 5.5,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 1.0,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/monstera-adansonii-planta-1297176069",
-    "created_at": 1788272647205,
-    "search": "monstera",
+    "url": "https://es.wallapop.com/item/philodendron-golden-dragon-planta-1297461631",
+    "created_at": 1788344524270,
+    "search": "philodendron",
     "reasons": [
       "<= max €25",
-      "40% below median €26"
+      "40% below median €20"
     ],
     "is_new": true
   },
   {
-    "id": "v6gpw9dxvl6e",
-    "title": "Pack Paula",
-    "price": 20.0,
+    "id": "9jdwpoqqq96k",
+    "title": "Philodendron squamiferum",
+    "price": 10.0,
     "currency": "EUR",
     "city": "Madrid",
-    "distance_km": 0.8,
+    "distance_km": 0.1,
     "reserved": false,
     "shippable": true,
-    "url": "https://es.wallapop.com/item/pack-paula-1297226588",
-    "created_at": 1788279577339,
-    "search": "monstera",
+    "url": "https://es.wallapop.com/item/philodendron-squamiferum-1297460536",
+    "created_at": 1788344357950,
+    "search": "philodendron",
     "reasons": [
-      "<= max €25"
+      "<= max €25",
+      "40% below median €20"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "v6gpwdqrpn6e",
+    "title": "Philodendron paraiso verde",
+    "price": 10.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 0.1,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/philodendron-paraiso-verde-1297459740",
+    "created_at": 1788344228562,
+    "search": "philodendron",
+    "reasons": [
+      "<= max €25",
+      "40% below median €20"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "0j28x0dkpmjy",
+    "title": "Philodendron Paraiso Verde",
+    "price": 12.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 0.1,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/philodendron-paraiso-verde-1297458959",
+    "created_at": 1788344116307,
+    "search": "philodendron",
+    "reasons": [
+      "<= max €25",
+      "40% below median €20"
     ],
     "is_new": true
   }
