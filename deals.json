@@ -1,73 +1,89 @@
 [
   {
-    "id": "p618wp20m5z5",
-    "title": "Philodendron Golden Dragon Planta",
-    "price": 10.0,
+    "id": "4z485oonymjy",
+    "title": "Costilla de Adán - Planta Monstera Deliciosa",
+    "price": 4.0,
     "currency": "EUR",
     "city": "Madrid",
-    "distance_km": 0.1,
+    "distance_km": 2.1,
     "reserved": false,
     "shippable": true,
-    "url": "https://es.wallapop.com/item/philodendron-golden-dragon-planta-1297461631",
-    "created_at": 1788344524270,
-    "search": "philodendron",
+    "url": "https://es.wallapop.com/item/costilla-de-adan-planta-monstera-deliciosa-1297912362",
+    "created_at": 1788447730144,
+    "search": "monstera",
     "reasons": [
       "<= max €25",
-      "40% below median €20"
+      "40% below median €12"
     ],
     "is_new": true
   },
   {
-    "id": "9jdwpoqqq96k",
-    "title": "Philodendron squamiferum",
-    "price": 10.0,
+    "id": "pzpk0884q5j3",
+    "title": "Alocasia planta",
+    "price": 5.0,
     "currency": "EUR",
     "city": "Madrid",
-    "distance_km": 0.1,
+    "distance_km": 2.1,
     "reserved": false,
     "shippable": true,
-    "url": "https://es.wallapop.com/item/philodendron-squamiferum-1297460536",
-    "created_at": 1788344357950,
-    "search": "philodendron",
+    "url": "https://es.wallapop.com/item/alocasia-planta-1297918450",
+    "created_at": 1788448600709,
+    "search": "alocasia",
     "reasons": [
-      "<= max €25",
-      "40% below median €20"
+      "<= max €20",
+      "40% below median €10"
     ],
     "is_new": true
   },
   {
-    "id": "v6gpwdqrpn6e",
-    "title": "Philodendron paraiso verde",
+    "id": "36e50ql27y6d",
+    "title": "Planta Monstera Interior",
     "price": 10.0,
     "currency": "EUR",
     "city": "Madrid",
-    "distance_km": 0.1,
+    "distance_km": 2.8,
     "reserved": false,
     "shippable": true,
-    "url": "https://es.wallapop.com/item/philodendron-paraiso-verde-1297459740",
-    "created_at": 1788344228562,
-    "search": "philodendron",
+    "url": "https://es.wallapop.com/item/planta-monstera-interior-1297864939",
+    "created_at": 1788439671980,
+    "search": "monstera",
     "reasons": [
-      "<= max €25",
-      "40% below median €20"
+      "<= max €25"
     ],
     "is_new": true
   },
   {
-    "id": "0j28x0dkpmjy",
-    "title": "Philodendron Paraiso Verde",
-    "price": 12.0,
+    "id": "9jdwpgml0n6k",
+    "title": "2 Macetas Grandes Blancas Diseño Moderno",
+    "price": 10.0,
     "currency": "EUR",
     "city": "Madrid",
-    "distance_km": 0.1,
+    "distance_km": 2.0,
     "reserved": false,
     "shippable": true,
-    "url": "https://es.wallapop.com/item/philodendron-paraiso-verde-1297458959",
-    "created_at": 1788344116307,
-    "search": "philodendron",
+    "url": "https://es.wallapop.com/item/macetas-grandes-blancas-diseno-moderno-1297726112",
+    "created_at": 1788396879281,
+    "search": "ficus",
     "reasons": [
-      "<= max €25",
-      "40% below median €20"
+      "<= max €20",
+      "40% below median €30"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "nz08k7wp0d6o",
+    "title": "Alocasia Dragon Gold",
+    "price": 16.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 1.0,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/alocasia-gold-dragon-1297696427",
+    "created_at": 1788383425384,
+    "search": "alocasia",
+    "reasons": [
+      "<= max €20"
     ],
     "is_new": true
   }
