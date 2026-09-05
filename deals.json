@@ -1,18 +1,139 @@
 [
   {
-    "id": "pj94wd5v0v6e",
-    "title": "Alocasia Macrorrhiza Oreja Elefante",
+    "id": "mzn3ngknv7jn",
+    "title": "Monstera Adansonii Planta",
+    "price": 5.5,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 1.0,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/monstera-adansonii-planta-1298485525",
+    "created_at": 1788604920259,
+    "search": "monstera",
+    "reasons": [
+      "<= max €25",
+      "40% below median €19"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "wzvgor77n4zl",
+    "title": "Monstera Adansonii",
+    "price": 5.5,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 1.0,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/monstera-adansonii-1298484389",
+    "created_at": 1788604771100,
+    "search": "monstera",
+    "reasons": [
+      "<= max €25",
+      "40% below median €19"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "x6qq7k07lq6y",
+    "title": "Calathea white star pequeña",
+    "price": 9.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 2.0,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/calathea-white-star-pequena-1298526918",
+    "created_at": 1788611013358,
+    "search": "calathea",
+    "reasons": [
+      "<= max €15"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "8z887qxpkdz3",
+    "title": "Calathea crimson",
     "price": 10.0,
     "currency": "EUR",
     "city": "Madrid",
-    "distance_km": 0.8,
+    "distance_km": 2.0,
     "reserved": false,
     "shippable": true,
-    "url": "https://es.wallapop.com/item/alocasia-macrorrhiza-oreja-elefante-1297968513",
-    "created_at": 1788455907826,
-    "search": "alocasia",
+    "url": "https://es.wallapop.com/item/calathea-crimson-1298523594",
+    "created_at": 1788610434510,
+    "search": "calathea",
     "reasons": [
-      "<= max €20"
+      "<= max €15"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "nzxe2lkom562",
+    "title": "Philodendron gloriosum pequeña",
+    "price": 10.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 2.0,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/philodendron-gloriosum-pequena-1298528306",
+    "created_at": 1788611255123,
+    "search": "philodendron",
+    "reasons": [
+      "<= max €25"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "9jdwyxlnrd6k",
+    "title": "Monstera Obliqua peru",
+    "price": 14.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 2.0,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/monstera-obliqua-peru-1298520912",
+    "created_at": 1788610022321,
+    "search": "monstera",
+    "reasons": [
+      "<= max €25"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "36e5ydl47q6d",
+    "title": "Sansevieria foxtail",
+    "price": 15.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 2.0,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/sansevieria-foxtail-1298525615",
+    "created_at": 1788610792298,
+    "search": "sansevieria",
+    "reasons": [
+      "<= max €15"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "9jdwyxle896k",
+    "title": "Monstera thai pequeña",
+    "price": 20.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 2.0,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/monstera-thai-pequena-1298521336",
+    "created_at": 1788610089864,
+    "search": "monstera",
+    "reasons": [
+      "<= max €25"
     ],
     "is_new": true
   }
