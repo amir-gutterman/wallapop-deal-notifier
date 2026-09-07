@@ -1,206 +1,52 @@
 [
   {
-    "id": "36e5ywkweq6d",
-    "title": "Sansevieria stylish fan pequeña",
-    "price": 6.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 2.0,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/sansevieria-stylish-fan-pequena-1298780015",
-    "created_at": 1788688457091,
-    "search": "sansevieria",
-    "reasons": [
-      "<= max €15",
-      "40% below median €10"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "qzmm54lw3gzv",
-    "title": "Philodendron El Choco Red",
-    "price": 9.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 0.8,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/philodendron-el-choco-red-1298855880",
-    "created_at": 1788698193352,
-    "search": "philodendron",
-    "reasons": [
-      "<= max €25"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "wzyrkn8ldp65",
-    "title": "Sansevieria Gabriela variegata pequeña",
-    "price": 10.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 2.0,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/sansevieria-gabriela-variegata-pequena-1298779768",
-    "created_at": 1788688426048,
-    "search": "sansevieria",
-    "reasons": [
-      "<= max €15"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "36e5ywlmgy6d",
-    "title": "Philodendron Mamei",
-    "price": 11.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 0.8,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/philodendron-mamei-1298855539",
-    "created_at": 1788698130728,
-    "search": "philodendron",
-    "reasons": [
-      "<= max €25"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "0j28vy5d7vjy",
-    "title": "Alocasia Lauterbachiana",
-    "price": 12.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 0.8,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/alocasia-lauterbachiana-1298856811",
-    "created_at": 1788698343024,
-    "search": "alocasia",
-    "reasons": [
-      "<= max €20"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "p618gor3g2z5",
-    "title": "Philodendron Gloriosum",
-    "price": 12.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 0.8,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/philodendron-gloriosum-1298857431",
-    "created_at": 1788698446434,
-    "search": "philodendron",
-    "reasons": [
-      "<= max €25"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "8j38qyn9p8z9",
-    "title": "Philodendron Ring of Fire Gold",
-    "price": 12.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 0.8,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/philodendron-ring-of-fire-gold-1298856558",
-    "created_at": 1788698301148,
-    "search": "philodendron",
-    "reasons": [
-      "<= max €25"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "pzpk09pmnmj3",
-    "title": "Philodendron Ring of Fire",
-    "price": 12.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 0.8,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/philodendron-ring-of-fire-1298856326",
-    "created_at": 1788698261363,
-    "search": "philodendron",
-    "reasons": [
-      "<= max €25"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "pzpk09p32lj3",
-    "title": "Philodendron Verrucossum",
-    "price": 12.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 0.8,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/philodendron-verrucossum-1298854798",
-    "created_at": 1788698004668,
-    "search": "philodendron",
-    "reasons": [
-      "<= max €25"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "3zlmyglw9pjx",
-    "title": "Alocasia Melo",
-    "price": 13.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 0.8,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/alocasia-melo-1298857045",
-    "created_at": 1788698385595,
-    "search": "alocasia",
-    "reasons": [
-      "<= max €20"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "0j28vy5kpmjy",
-    "title": "Philodendron billietiae",
-    "price": 13.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 0.8,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/philodendron-billietiae-1298855183",
-    "created_at": 1788698069565,
-    "search": "philodendron",
-    "reasons": [
-      "<= max €25"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "nzxe258yn762",
-    "title": "Sansevieria Comet laurel",
+    "id": "8j38qxgwn8z9",
+    "title": "Monstera Thai Con",
     "price": 14.0,
     "currency": "EUR",
     "city": "Madrid",
+    "distance_km": 0.8,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/monstera-thai-con-1299065382",
+    "created_at": 1788733280769,
+    "search": "monstera",
+    "reasons": [
+      "<= max €25"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "wzyrk5elgp65",
+    "title": "Alocasia platinum",
+    "price": 19.0,
+    "currency": "EUR",
+    "city": "Madrid",
     "distance_km": 2.0,
     "reserved": false,
     "shippable": true,
-    "url": "https://es.wallapop.com/item/sansevieria-comet-laurel-1298780754",
-    "created_at": 1788688556798,
-    "search": "sansevieria",
+    "url": "https://es.wallapop.com/item/alocasia-platinum-1299235720",
+    "created_at": 1788788080642,
+    "search": "alocasia",
     "reasons": [
-      "<= max €15"
+      "<= max €20"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "mzn3nvwwpyjn",
+    "title": "Ficus Lyrata",
+    "price": 20.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 0.9,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/ficus-lyrata-1299004125",
+    "created_at": 1788718979195,
+    "search": "ficus",
+    "reasons": [
+      "<= max €20"
     ],
     "is_new": true
   }
