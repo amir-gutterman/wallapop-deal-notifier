@@ -1,52 +1,18 @@
 [
   {
-    "id": "8j38qxgwn8z9",
-    "title": "Monstera Thai Con",
-    "price": 14.0,
+    "id": "mzn3n8mvx2jn",
+    "title": "Monstera Adansonii Indonesian Marble",
+    "price": 10.0,
     "currency": "EUR",
     "city": "Madrid",
-    "distance_km": 0.8,
+    "distance_km": 0.1,
     "reserved": false,
     "shippable": true,
-    "url": "https://es.wallapop.com/item/monstera-thai-con-1299065382",
-    "created_at": 1788733280769,
+    "url": "https://es.wallapop.com/item/monstera-adansonii-indonesian-marble-1299402773",
+    "created_at": 1788815262618,
     "search": "monstera",
     "reasons": [
       "<= max €25"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "wzyrk5elgp65",
-    "title": "Alocasia platinum",
-    "price": 19.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 2.0,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/alocasia-platinum-1299235720",
-    "created_at": 1788788080642,
-    "search": "alocasia",
-    "reasons": [
-      "<= max €20"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "mzn3nvwwpyjn",
-    "title": "Ficus Lyrata",
-    "price": 20.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 0.9,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/ficus-lyrata-1299004125",
-    "created_at": 1788718979195,
-    "search": "ficus",
-    "reasons": [
-      "<= max €20"
     ],
     "is_new": true
   }
