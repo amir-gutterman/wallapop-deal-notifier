@@ -1,15 +1,101 @@
 [
   {
-    "id": "mzn3n8mvx2jn",
-    "title": "Monstera Adansonii Indonesian Marble",
+    "id": "qjwr3rye046o",
+    "title": "Philodendron red Anderson pequeña",
+    "price": 8.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 2.0,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/philodendron-red-anderson-pequena-1299927029",
+    "created_at": 1788957883129,
+    "search": "philodendron",
+    "reasons": [
+      "<= max €25"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "wzvgogqko7zl",
+    "title": "Pothos njoy",
+    "price": 9.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 2.0,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/pothos-njoy-1300029017",
+    "created_at": 1788972865534,
+    "search": "pothos",
+    "reasons": [
+      "<= max €12"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "qjwr3reo1e6o",
+    "title": "Calathea orbifolia",
     "price": 10.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 2.0,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/calathea-orbifolia-1299923953",
+    "created_at": 1788957333092,
+    "search": "calathea",
+    "reasons": [
+      "<= max €15"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "xzogpgle85j9",
+    "title": "Ficus Shivereana moonshine pequeña",
+    "price": 10.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 2.0,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/ficus-shivereana-moonshine-pequena-1299925509",
+    "created_at": 1788957605398,
+    "search": "ficus",
+    "reasons": [
+      "<= max €20",
+      "40% below median €32"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "8j38q40421z9",
+    "title": "Cormo Alocasia Polly Albo Variegata",
+    "price": 12.0,
     "currency": "EUR",
     "city": "Madrid",
     "distance_km": 0.1,
     "reserved": false,
     "shippable": true,
-    "url": "https://es.wallapop.com/item/monstera-adansonii-indonesian-marble-1299402773",
-    "created_at": 1788815262618,
+    "url": "https://es.wallapop.com/item/cormo-alocasia-polly-albo-variegata-1299860034",
+    "created_at": 1788946724713,
+    "search": "alocasia",
+    "reasons": [
+      "<= max €20"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "pzpk0kyemkj3",
+    "title": "Monstera adansonii freckles pequeña",
+    "price": 14.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 2.0,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/monstera-adansonii-freckles-pequena-1299922326",
+    "created_at": 1788957031553,
     "search": "monstera",
     "reasons": [
       "<= max €25"
