@@ -1,15 +1,51 @@
 [
   {
-    "id": "qjwr3rye046o",
-    "title": "Philodendron red Anderson pequeña",
-    "price": 8.0,
+    "id": "pj94wnd2dk6e",
+    "title": "Monstera Deliciosa Joven",
+    "price": 5.5,
     "currency": "EUR",
     "city": "Madrid",
-    "distance_km": 2.0,
+    "distance_km": 1.0,
     "reserved": false,
     "shippable": true,
-    "url": "https://es.wallapop.com/item/philodendron-red-anderson-pequena-1299927029",
-    "created_at": 1788957883129,
+    "url": "https://es.wallapop.com/item/monstera-deliciosa-joven-1300239937",
+    "created_at": 1789036215685,
+    "search": "monstera",
+    "reasons": [
+      "<= max €25",
+      "40% below median €12"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "p618g592mdz5",
+    "title": "Monstera Deliciosa Planta Joven",
+    "price": 6.5,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 1.0,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/monstera-deliciosa-planta-joven-1300239107",
+    "created_at": 1789036080739,
+    "search": "monstera",
+    "reasons": [
+      "<= max €25",
+      "40% below median €12"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "qzmm57gk4lzv",
+    "title": "Philodendron Scandens Brasil",
+    "price": 6.5,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 1.0,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/philodendron-scandens-brasil-1300240580",
+    "created_at": 1789036318083,
     "search": "philodendron",
     "reasons": [
       "<= max €25"
@@ -17,88 +53,89 @@
     "is_new": true
   },
   {
-    "id": "wzvgogqko7zl",
-    "title": "Pothos njoy",
-    "price": 9.0,
+    "id": "9jdwy8w2rn6k",
+    "title": "Ficus Belize",
+    "price": 7.0,
     "currency": "EUR",
     "city": "Madrid",
     "distance_km": 2.0,
     "reserved": false,
     "shippable": true,
-    "url": "https://es.wallapop.com/item/pothos-njoy-1300029017",
-    "created_at": 1788972865534,
-    "search": "pothos",
-    "reasons": [
-      "<= max €12"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "qjwr3reo1e6o",
-    "title": "Calathea orbifolia",
-    "price": 10.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 2.0,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/calathea-orbifolia-1299923953",
-    "created_at": 1788957333092,
-    "search": "calathea",
-    "reasons": [
-      "<= max €15"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "xzogpgle85j9",
-    "title": "Ficus Shivereana moonshine pequeña",
-    "price": 10.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 2.0,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/ficus-shivereana-moonshine-pequena-1299925509",
-    "created_at": 1788957605398,
+    "url": "https://es.wallapop.com/item/ficus-belize-1300315736",
+    "created_at": 1789049608414,
     "search": "ficus",
     "reasons": [
       "<= max €20",
-      "40% below median €32"
+      "40% below median €30"
     ],
     "is_new": true
   },
   {
-    "id": "8j38q40421z9",
-    "title": "Cormo Alocasia Polly Albo Variegata",
+    "id": "3zlmy0ey7qjx",
+    "title": "Ficus Lyrata Planta",
+    "price": 8.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 1.0,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/ficus-lyrata-planta-1300241445",
+    "created_at": 1789036466097,
+    "search": "ficus",
+    "reasons": [
+      "<= max €20",
+      "40% below median €30"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "36e5y89lrk6d",
+    "title": "Monstera Oblicua de Perú",
     "price": 12.0,
     "currency": "EUR",
     "city": "Madrid",
-    "distance_km": 0.1,
+    "distance_km": 1.0,
     "reserved": false,
     "shippable": true,
-    "url": "https://es.wallapop.com/item/cormo-alocasia-polly-albo-variegata-1299860034",
-    "created_at": 1788946724713,
-    "search": "alocasia",
+    "url": "https://es.wallapop.com/item/monstera-oblicua-de-peru-1300242015",
+    "created_at": 1789036551019,
+    "search": "monstera",
     "reasons": [
-      "<= max €20"
+      "<= max €25"
     ],
     "is_new": true
   },
   {
-    "id": "pzpk0kyemkj3",
-    "title": "Monstera adansonii freckles pequeña",
-    "price": 14.0,
+    "id": "wzyrkye3yv65",
+    "title": "Rhaphidophora Tetrasperma Planta",
+    "price": 14.9,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 1.0,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/rhaphidophora-tetrasperma-planta-1300242420",
+    "created_at": 1789036615830,
+    "search": "monstera",
+    "reasons": [
+      "<= max €25"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "wzyrkyreg265",
+    "title": "Alocasia Platinum",
+    "price": 20.0,
     "currency": "EUR",
     "city": "Madrid",
     "distance_km": 2.0,
     "reserved": false,
     "shippable": true,
-    "url": "https://es.wallapop.com/item/monstera-adansonii-freckles-pequena-1299922326",
-    "created_at": 1788957031553,
-    "search": "monstera",
+    "url": "https://es.wallapop.com/item/alocasia-platinum-1300313420",
+    "created_at": 1789049226610,
+    "search": "alocasia",
     "reasons": [
-      "<= max €25"
+      "<= max €20"
     ],
     "is_new": true
   }
