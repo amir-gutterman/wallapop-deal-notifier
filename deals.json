@@ -1,32 +1,15 @@
 [
   {
-    "id": "nzxe2mvnn762",
-    "title": "Planta Sansevieria en maceta blanca",
-    "price": 10.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 0.8,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/planta-sansevieria-en-maceta-blanca-1301400978",
-    "created_at": 1789316135372,
-    "search": "sansevieria",
-    "reasons": [
-      "<= max €15"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "qjwr31d1p46o",
-    "title": "Monstera Oblicua de Perú",
+    "id": "nzxe29vpde62",
+    "title": "Monstera Adansonii Planta",
     "price": 12.0,
     "currency": "EUR",
     "city": "Madrid",
-    "distance_km": 1.0,
+    "distance_km": 2.4,
     "reserved": false,
     "shippable": true,
-    "url": "https://es.wallapop.com/item/monstera-oblicua-de-peru-1301272805",
-    "created_at": 1789298362066,
+    "url": "https://es.wallapop.com/item/monstera-adansonii-planta-1301731206",
+    "created_at": 1789399246812,
     "search": "monstera",
     "reasons": [
       "<= max €25"
@@ -34,36 +17,19 @@
     "is_new": true
   },
   {
-    "id": "nzxe2m0yoe62",
-    "title": "Monstera Deliciosa con Maceta de 12cm",
-    "price": 25.0,
+    "id": "4z485k30omjy",
+    "title": "Alocasia Ninja",
+    "price": 15.0,
     "currency": "EUR",
     "city": "Madrid",
-    "distance_km": 1.2,
+    "distance_km": 2.4,
     "reserved": false,
     "shippable": true,
-    "url": "https://es.wallapop.com/item/monstera-deliciosa-con-maceta-de-12cm-1301283006",
-    "created_at": 1789299532536,
-    "search": "monstera",
+    "url": "https://es.wallapop.com/item/alocasia-ninja-1301727186",
+    "created_at": 1789398654774,
+    "search": "alocasia",
     "reasons": [
-      "<= max €25"
-    ],
-    "is_new": true
-  },
-  {
-    "id": "mzn3ne24okjn",
-    "title": "Philodendron Melanochrysum",
-    "price": 25.0,
-    "currency": "EUR",
-    "city": "Madrid",
-    "distance_km": 1.0,
-    "reserved": false,
-    "shippable": true,
-    "url": "https://es.wallapop.com/item/philodendron-melanochrysum-1301294801",
-    "created_at": 1789300985554,
-    "search": "philodendron",
-    "reasons": [
-      "<= max €25"
+      "<= max €20"
     ],
     "is_new": true
   }
