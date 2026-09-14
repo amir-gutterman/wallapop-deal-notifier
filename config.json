@@ -24,36 +24,8 @@
   ],
   "searches": [
     {
-      "keywords": "monstera",
-      "max_price": 25
-    },
-    {
-      "keywords": "pothos",
-      "max_price": 12
-    },
-    {
-      "keywords": "potos",
-      "max_price": 12
-    },
-    {
-      "keywords": "calathea",
-      "max_price": 15
-    },
-    {
       "keywords": "alocasia",
       "max_price": 20
-    },
-    {
-      "keywords": "philodendron",
-      "max_price": 25
-    },
-    {
-      "keywords": "ficus",
-      "max_price": 20
-    },
-    {
-      "keywords": "sansevieria",
-      "max_price": 15
     }
   ]
 }
