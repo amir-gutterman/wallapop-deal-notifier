@@ -1,19 +1,18 @@
 [
   {
-    "id": "8z88xqm3roz3",
-    "title": "Planta joven Alocasia Round Leaf",
-    "price": 7.0,
+    "id": "xzognvrxx5j9",
+    "title": "Alocasia Frydek Variegata",
+    "price": 15.0,
     "currency": "EUR",
     "city": "Madrid",
-    "distance_km": 1.0,
+    "distance_km": 2.9,
     "reserved": false,
     "shippable": true,
-    "url": "https://es.wallapop.com/item/planta-joven-alocasia-round-leaf-1306502470",
-    "created_at": 1790527351781,
+    "url": "https://es.wallapop.com/item/alocasia-frydek-variegata-1306925181",
+    "created_at": 1790622490430,
     "search": "alocasia",
     "reasons": [
-      "<= max €20",
-      "40% below median €12"
+      "<= max €20"
     ],
     "is_new": true
   }
