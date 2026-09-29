@@ -1,5 +1,58 @@
 [
   {
+    "id": "xzognv4vrwj9",
+    "title": "Alocasia Amazónica Polly Joven",
+    "price": 4.5,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 1.0,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/alocasia-amazonica-polly-joven-1307102509",
+    "created_at": 1790679452619,
+    "search": "alocasia",
+    "reasons": [
+      "<= max €20",
+      "40% below median €15"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "mzn35vk4yyjn",
+    "title": "Alocasia Frydek",
+    "price": 8.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 1.0,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/alocasia-frydek-1307101197",
+    "created_at": 1790679249359,
+    "search": "alocasia",
+    "reasons": [
+      "<= max €20",
+      "40% below median €15"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "pzpkpr18dlj3",
+    "title": "Alocasia jacklyn",
+    "price": 16.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 2.0,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/alocasia-jacklyn-1307239102",
+    "created_at": 1790700768691,
+    "search": "alocasia",
+    "reasons": [
+      "<= max €20"
+    ],
+    "is_new": true
+  },
+  {
     "id": "xzognvrxx5j9",
     "title": "Alocasia Frydek Variegata",
     "price": 15.0,
@@ -14,6 +67,6 @@
     "reasons": [
       "<= max €20"
     ],
-    "is_new": true
+    "is_new": false
   }
 ]
