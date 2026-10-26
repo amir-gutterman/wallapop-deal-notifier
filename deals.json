@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "id": "8z88mrney1z3",
+    "title": "Alocasia Frydek Variegata",
+    "price": 12.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 2.9,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/alocasia-frydek-variegata-1317378794",
+    "created_at": 1793016849027,
+    "search": "alocasia",
+    "reasons": [
+      "<= max €20"
+    ],
+    "is_new": true
+  }
+]
