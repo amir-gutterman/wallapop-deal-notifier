@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "id": "nzxeo8nore62",
+    "title": "Planta Alocasia Oreja de Elefante",
+    "price": 5.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 1.0,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/planta-alocasia-oreja-de-elefante-1319043054",
+    "created_at": 1793447633489,
+    "search": "alocasia",
+    "reasons": [
+      "<= max €20",
+      "40% below median €10"
+    ],
+    "is_new": true
+  }
+]
