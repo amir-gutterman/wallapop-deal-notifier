@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "id": "qzmmrd7w2lzv",
+    "title": "Alocasia Frydek",
+    "price": 8.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 1.3,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/alocasia-frydek-1319578556",
+    "created_at": 1793572036342,
+    "search": "alocasia",
+    "reasons": [
+      "<= max €20"
+    ],
+    "is_new": true
+  }
+]
