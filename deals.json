@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "id": "ejkmvlg99qzx",
+    "title": "Alocasia silver dragon pequeña",
+    "price": 10.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 2.0,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/alocasia-silver-dragon-pequena-1320774423",
+    "created_at": 1793808829348,
+    "search": "alocasia",
+    "reasons": [
+      "<= max €20"
+    ],
+    "is_new": true
+  }
+]
