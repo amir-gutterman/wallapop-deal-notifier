@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "id": "v6gpd273956e",
+    "title": "Cormo de Alocasia Cucullata",
+    "price": 5.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 0.5,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/cormo-de-alocasia-cucullata-1323241288",
+    "created_at": 1794405463126,
+    "search": "alocasia",
+    "reasons": [
+      "<= max €20",
+      "40% below median €15"
+    ],
+    "is_new": true
+  }
+]
