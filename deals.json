@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "id": "qjwrxr5pee6o",
+    "title": "Alocasia Zebrina Adulta",
+    "price": 15.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 1.3,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/alocasia-zebrina-adulta-1324009753",
+    "created_at": 1794592918248,
+    "search": "alocasia",
+    "reasons": [
+      "<= max €20",
+      "40% below median €30"
+    ],
+    "is_new": true
+  }
+]
