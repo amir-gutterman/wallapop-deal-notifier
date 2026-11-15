@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "id": "pzpklgooqlj3",
+    "title": "5 Cormos de Alocasia Jacklyn Germinados",
+    "price": 2.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 1.4,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/5-cormos-de-alocasia-jacklyn-germinados-1324680574",
+    "created_at": 1794758583294,
+    "search": "alocasia",
+    "reasons": [
+      "<= max €20",
+      "40% below median €15"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "x6qq54glen6y",
+    "title": "Alocasia Bambino joven",
+    "price": 3.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 1.4,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/alocasia-bambino-joven-1324685242",
+    "created_at": 1794759278472,
+    "search": "alocasia",
+    "reasons": [
+      "<= max €20",
+      "40% below median €15"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "wzyrmx05q265",
+    "title": "Cormos alocasia Ninja",
+    "price": 4.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 2.8,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/cormos-alocasia-ninja-1324645868",
+    "created_at": 1794753432213,
+    "search": "alocasia",
+    "reasons": [
+      "<= max €20",
+      "40% below median €15"
+    ],
+    "is_new": true
+  }
+]
