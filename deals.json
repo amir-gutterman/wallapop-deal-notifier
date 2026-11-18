@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "id": "36e53vp4py6d",
+    "title": "Planta Alocasia Polly",
+    "price": 2.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 2.8,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/planta-alocasia-polly-1325565139",
+    "created_at": 1794984074707,
+    "search": "alocasia",
+    "reasons": [
+      "<= max €20",
+      "40% below median €30"
+    ],
+    "is_new": true
+  }
+]
