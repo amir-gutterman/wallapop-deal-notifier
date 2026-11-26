@@ -1,1 +1,70 @@
-[]
+[
+  {
+    "id": "xzogynder5j9",
+    "title": "Alocasia ninja pequeña",
+    "price": 7.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 2.0,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/alocasia-ninja-pequena-1328582709",
+    "created_at": 1795722251399,
+    "search": "alocasia",
+    "reasons": [
+      "<= max €20"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "e65qx0dqr26o",
+    "title": "Alocasia jacklyn pequeña",
+    "price": 8.5,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 2.0,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/alocasia-jacklyn-pequena-1328614524",
+    "created_at": 1795729067613,
+    "search": "alocasia",
+    "reasons": [
+      "<= max €20"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "vjren7ey2xzk",
+    "title": "Alocasia silver dragon pequeña",
+    "price": 10.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 2.0,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/alocasia-silver-dragon-pequena-1328514443",
+    "created_at": 1795711300803,
+    "search": "alocasia",
+    "reasons": [
+      "<= max €20"
+    ],
+    "is_new": true
+  },
+  {
+    "id": "wzvgwmvpe1zl",
+    "title": "Alocasia frydek variegata pequeña",
+    "price": 11.0,
+    "currency": "EUR",
+    "city": "Madrid",
+    "distance_km": 2.0,
+    "reserved": false,
+    "shippable": true,
+    "url": "https://es.wallapop.com/item/alocasia-frydek-variegata-pequena-1328607765",
+    "created_at": 1795727242655,
+    "search": "alocasia",
+    "reasons": [
+      "<= max €20"
+    ],
+    "is_new": true
+  }
+]
